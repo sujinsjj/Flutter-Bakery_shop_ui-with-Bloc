@@ -1,0 +1,271 @@
+{
+  "categories": [
+    {
+      "name": "Cakes",
+      "icon": "cake.svg",
+      "subcategories": [
+        {
+          "name": "Birthday Cakes",
+          "products": [
+            {
+              "id": "1",
+              "name": "Chocolate Strawberry Cake",
+              "image": "https://i.pinimg.com/564x/fa/36/98/fa3698631c01d4db3061ad459533a73e.jpg",
+              "price": 30.0,
+              "rating": 4.5,
+              "calories": 500,
+              "days": 7,
+              "detail": "Indulge in a rich, decadent Chocolate Strawberry Cake that combines moist chocolate sponge layers with a luscious strawberry filling. Each layer is generously spread with smooth chocolate ganache, perfectly balancing the sweetness of fresh strawberries. The cake is topped with whole strawberries dipped in melted chocolate for a stunning and elegant finish. A light whipped cream frosting adds a delightful contrast, making every bite a heavenly experience. Perfect for celebrations or as a treat, this cake offers a delightful blend of fruity freshness and deep chocolate flavors.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "2",
+              "name": "Triple Chocolate Ombre Cake",
+              "image": "https://i.pinimg.com/564x/c1/77/1a/c1771ab4412317569ff4124fbd3dc280.jpg",
+              "price": 18.0,
+              "rating": 4.2,
+              "calories": 450,
+              "days": 5,
+              "detail": "As spectacular looking as it is delicious tasting, this Triple Chocolate Ombre Cake is sure to make a winning and lasting impression!",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "3",
+              "name": "WHITE FLOWERS CAKE",
+              "image": "https://i.pinimg.com/736x/7f/e6/f5/7fe6f55ff55cc028b3f1f003ea885920.jpg",
+              "price": 18.0,
+              "rating": 4.2,
+              "calories": 450,
+              "days": 5,
+              "detail": "Indulge in a rich, decadent Chocolate Strawberry Cake that combines moist chocolate sponge layers with a luscious strawberry filling. Each layer is generously spread with smooth chocolate ganache, perfectly balancing the sweetness of fresh strawberries. The cake is topped with whole strawberries dipped in melted chocolate for a stunning and elegant finish. ",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        },
+        {
+          "name": "Wedding Cakes",
+          "products": [
+            {
+              "id": "4",
+              "name": "Whispering Blooms",
+              "image": "https://i.pinimg.com/736x/40/11/37/401137fa923ab683b74660512385f98e.jpg",
+              "price": 50.0,
+              "rating": 4.0,
+              "calories": 500,
+              "days": 7,
+              "detail": "Introducing \"Whispering Blooms,\" a wedding cake that embodies the delicate balance of modern sophistication and natural beauty. This enchanting two-tiered cake features cascading waves of soft white fondant, mimicking the gentle flow of fabric. Adorned with exquisite handcrafted sugar flowers and elegant branches, it creates a sense of serene elegance. Perfect for the modern bride seeking a timeless yet contemporary design, this cake serves as a stunning focal point for your special day. Make your wedding unforgettable with this unique blend of artistry and grace.",
+              "size": ["Medium","Big"]
+            },
+            {
+              "id": "5",
+              "name": "Wedding cake",
+              "image": "https://i.pinimg.com/564x/7c/18/8a/7c188af41660d53e3633d0b813b89044.jpg",
+              "price": 500.0,
+              "rating": 4.2,
+              "calories": 450,
+              "days": 5,
+              "detail": "As spectacular looking as it is delicious tasting, this Triple Chocolate Ombre Cake is sure to make a winning and lasting impression!",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        },
+        {
+          "name": "CupCakes",
+          "products": [
+            {
+              "id": "6",
+              "name": "White Chocolate Blueberry Cupcakes",
+              "image": "https://i.pinimg.com/564x/9a/36/fe/9a36fec0b2a1ea95644bf2bdc0c9bc24.jpg",
+              "price": 8.5,
+              "rating": 4.1,
+              "calories": 100,
+              "days": 1,
+              "detail": "Dive in the whimsical delight of White Chocolate Blueberry Cupcakes, where creamy white chocolate meets the vibrant zing of fresh blueberries. Each cupcake is a masterpiece of flavor, perfectly balanced and irresistibly sweet. Crafted with love and care, these cupcakes are not just a dessert, they're a celebration in every bite!",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "7",
+              "name": "Cookies & Cream Cupcakes",
+              "image": "https://i.pinimg.com/564x/8d/26/cd/8d26cd15ba63e4f719250d7048737b00.jpg",
+              "price": 7.0,
+              "rating": 4.4,
+              "calories": 100,
+              "days": 1,
+              "detail": "Moist chocolate cupcakes frosted with cookies and cream buttercream and drizzled in chocolate ganache. Easy Oreo cupcake recipe.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "8",
+              "name": "Lemon Curd Filled Cupcake",
+              "image": "https://i.pinimg.com/564x/1f/d0/f5/1fd0f507a4c02f9193caec4e3aeccd21.jpg",
+              "price": 8.0,
+              "rating": 4.2,
+              "calories": 150,
+              "days": 2,
+              "detail": "Lemon desserts are hard to beat! We absolutely love them and find ourselves flavoring everything with lemon in the spring time. I decided to create a dreamy lemon buttermilk cake recipe with lemon buttercream frosting for Easter, and it turned out so delicious. The cupcakes are filled with lemon cur",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        },
+        {
+          "name": "PanCakes",
+          "products": [
+            {
+              "id": "9",
+              "name": "American Pancakes",
+              "image": "https://i.pinimg.com/564x/98/6e/80/986e8020d901fe1c313e9460495ec5c3.jpg",
+              "price": 8.5,
+              "rating": 4.1,
+              "calories": 100,
+              "days": 1,
+              "detail": "This quick American pancake recipe yields a light and fluffy pancakes ideal for a weekend brunch or a quick breakfast. Make these pancakes in no time for a quick dessert or a decadent breakfast treat. Almost anything goes on top, from golden syrup to chocolate sauce to a handful of fresh berries and whipped cream. […] The post American Pancakes appeared first on Scrumptiously.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "10",
+              "name": "Banana Pancakes",
+              "image": "https://i.pinimg.com/564x/a2/f7/15/a2f71517ec96239cab4854773e4764aa.jpg",
+              "price": 10.0,
+              "rating": 4.4,
+              "calories": 100,
+              "days": 1,
+              "detail": "Easy banana pancakes that mix up quickly and are a fantastic change from the usual buttermilk pancakes.  The whole family will love these for breakfast!",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "11",
+              "name": "Traditional Fluffy Japanese Souffle Pancakes",
+              "image": "https://i.pinimg.com/564x/bc/9a/f4/bc9af4c2074cd1e679031a593d1e5b8d.jpg",
+              "price": 8.0,
+              "rating": 4.2,
+              "calories": 150,
+              "days": 2,
+              "detail": "These Fluffy Japanese Soufflé Pancakes are like eating cottony clouds! The delicate, melt-in-your-mouth pancakes are even better with homemade whipped cream and fresh berries. Learn how to make them perfectly airy and pillowy soft with my best tips.",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Westerns",
+      "icon": "pizza.svg",
+      "subcategories": [
+        {
+          "name": "Pizza",
+          "products": [
+            {
+              "id": "12",
+              "name": "Neapolitan Pizza Dough",
+              "image": "https://i.pinimg.com/564x/e0/c5/b5/e0c5b5ee8e4c56894a8550da6c789d73.jpg",
+              "price": 10.5,
+              "rating": 4.1,
+              "calories": 100,
+              "days": 1,
+              "detail": "Authentic Neapolitan-style pizza dough recipe with the signature bubbly char. This overnight dough is made with Type 00 flour, water, salt, and yeast and can be refrigerated for up to 5 days.  Example ScheduleMix dough at 8pm the evening before. The next morning, divide dough at 8am. Rest for 2-3 hours, then bake pizzas at 11am.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "13",
+              "name": "Pepperoni and Burrata Pizza with Pesto",
+              "image": "https://i.pinimg.com/564x/b6/94/0e/b6940e530fa87fdf8f4e9cdf5ccafc36.jpg",
+              "price": 10.0,
+              "rating": 4.4,
+              "calories": 100,
+              "days": 1,
+              "detail": "Pepperoni and Burrata Pizza with Pesto; flavorful and delicious pizza that you will love.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "14",
+              "name": "Pizza",
+              "image": "https://i.pinimg.com/564x/3c/e5/cb/3ce5cbc8b4a049254dae8ccccf40daf2.jpg",
+              "price": 8.0,
+              "rating": 4.2,
+              "calories": 150,
+              "days": 2,
+              "detail": "These Fluffy Japanese Soufflé Pancakes are like eating cottony clouds! The delicate, melt-in-your-mouth pancakes are even better with homemade whipped cream and fresh berries. Learn how to make them perfectly airy and pillowy soft with my best tips.",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        },
+        {
+          "name": "Spaghetti",
+          "products": [
+            {
+              "id": "12",
+              "name": "Neapolitan Pizza Dough",
+              "image": "https://i.pinimg.com/564x/e0/c5/b5/e0c5b5ee8e4c56894a8550da6c789d73.jpg",
+              "price": 10.5,
+              "rating": 4.1,
+              "calories": 100,
+              "days": 1,
+              "detail": "Authentic Neapolitan-style pizza dough recipe with the signature bubbly char. This overnight dough is made with Type 00 flour, water, salt, and yeast and can be refrigerated for up to 5 days.  Example ScheduleMix dough at 8pm the evening before. The next morning, divide dough at 8am. Rest for 2-3 hours, then bake pizzas at 11am.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "13",
+              "name": "Pepperoni and Burrata Pizza with Pesto",
+              "image": "https://i.pinimg.com/564x/b6/94/0e/b6940e530fa87fdf8f4e9cdf5ccafc36.jpg",
+              "price": 10.0,
+              "rating": 4.4,
+              "calories": 100,
+              "days": 1,
+              "detail": "Pepperoni and Burrata Pizza with Pesto; flavorful and delicious pizza that you will love.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "14",
+              "name": "Pizza",
+              "image": "https://i.pinimg.com/564x/3c/e5/cb/3ce5cbc8b4a049254dae8ccccf40daf2.jpg",
+              "price": 8.0,
+              "rating": 4.2,
+              "calories": 150,
+              "days": 2,
+              "detail": "These Fluffy Japanese Soufflé Pancakes are like eating cottony clouds! The delicate, melt-in-your-mouth pancakes are even better with homemade whipped cream and fresh berries. Learn how to make them perfectly airy and pillowy soft with my best tips.",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        },
+        {
+          "name": "Spaghetti",
+          "products": [
+            {
+              "id": "12",
+              "name": "Neapolitan Pizza Dough",
+              "image": "https://i.pinimg.com/564x/e0/c5/b5/e0c5b5ee8e4c56894a8550da6c789d73.jpg",
+              "price": 10.5,
+              "rating": 4.1,
+              "calories": 100,
+              "days": 1,
+              "detail": "Authentic Neapolitan-style pizza dough recipe with the signature bubbly char. This overnight dough is made with Type 00 flour, water, salt, and yeast and can be refrigerated for up to 5 days.  Example ScheduleMix dough at 8pm the evening before. The next morning, divide dough at 8am. Rest for 2-3 hours, then bake pizzas at 11am.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "13",
+              "name": "Pepperoni and Burrata Pizza with Pesto",
+              "image": "https://i.pinimg.com/564x/b6/94/0e/b6940e530fa87fdf8f4e9cdf5ccafc36.jpg",
+              "price": 10.0,
+              "rating": 4.4,
+              "calories": 100,
+              "days": 1,
+              "detail": "Pepperoni and Burrata Pizza with Pesto; flavorful and delicious pizza that you will love.",
+              "size": ["Small","Medium","Big"]
+            },
+            {
+              "id": "14",
+              "name": "Pizza",
+              "image": "https://i.pinimg.com/564x/3c/e5/cb/3ce5cbc8b4a049254dae8ccccf40daf2.jpg",
+              "price": 8.0,
+              "rating": 4.2,
+              "calories": 150,
+              "days": 2,
+              "detail": "These Fluffy Japanese Soufflé Pancakes are like eating cottony clouds! The delicate, melt-in-your-mouth pancakes are even better with homemade whipped cream and fresh berries. Learn how to make them perfectly airy and pillowy soft with my best tips.",
+              "size": ["Small","Medium","Big"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

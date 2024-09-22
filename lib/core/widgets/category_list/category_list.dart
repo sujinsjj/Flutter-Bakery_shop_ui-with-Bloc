@@ -37,24 +37,24 @@ Widget categoriesList() =>
                         context.read<CategoryBloc>().add(SelectCategoryEvent(index));
                       },
                       child: Container(
-                        height: 50,
-                        width: 50,
+                        height: 45,
+                        width: 45,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: isSelected ? AppColor.primaryColor: AppColor.grey,
                         ),
                         child: Center(
                           child: svgIcon(
-                              _cateItems[index]['icon'], isSelected ?Colors.white:Colors.grey, 22),
+                              _cateItems[index]['icon'], isSelected ?Colors.white:Colors.grey, 20),
                         ),
                       ),
                     ),
                     const SizedBox(height: 7,),
-                    SmallText(text: _cateItems[index]['name'])
+                    SmallText(text: _cateItems[index]['name'], fontSize: 13,)
                   ],
                 );
               },
-              separatorBuilder: (context, index) => const SizedBox(width: 15,),
+              separatorBuilder: (context, index) => const SizedBox(width: 12,),
               itemCount: _cateItems.length);
         },
       ),

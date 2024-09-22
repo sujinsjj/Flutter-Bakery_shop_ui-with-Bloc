@@ -1,3 +1,4 @@
+import 'package:bakery_shop_app_ui/core/widgets/MasonryGridView.dart';
 import 'package:bakery_shop_app_ui/core/widgets/category_list/category_list.dart';
 import 'package:bakery_shop_app_ui/core/widgets/search_bar.dart';
 import 'package:bakery_shop_app_ui/core/widgets/text.dart';
@@ -17,6 +18,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List<String> img = [
+    'https://i.pinimg.com/474x/9d/25/93/9d2593780fe22eba7acf1ea6e9e57110.jpg',
+    'https://i.pinimg.com/474x/d6/02/c3/d602c33ad9463f2f98a83d94d7a6830f.jpg',
+    'https://i.pinimg.com/474x/0e/cd/88/0ecd88bcf2f6207f3716a07a31c9ddcd.jpg',
+    'https://i.pinimg.com/474x/69/b9/dc/69b9dc9be4f378930574be82f3356b37.jpg',
+    'https://i.pinimg.com/474x/a2/c3/e7/a2c3e74b7a6ea6b96fb06cb97d46f1a5.jpg',
+    'https://i.pinimg.com/474x/9d/25/93/9d2593780fe22eba7acf1ea6e9e57110.jpg',
+    'https://i.pinimg.com/474x/d6/02/c3/d602c33ad9463f2f98a83d94d7a6830f.jpg',
+    'https://i.pinimg.com/474x/0e/cd/88/0ecd88bcf2f6207f3716a07a31c9ddcd.jpg',
+    'https://i.pinimg.com/474x/69/b9/dc/69b9dc9be4f378930574be82f3356b37.jpg',
+    'https://i.pinimg.com/474x/a2/c3/e7/a2c3e74b7a6ea6b96fb06cb97d46f1a5.jpg',
+  ];
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<HomeBloc, HomeState>(
@@ -59,8 +72,7 @@ class _HomePageState extends State<HomePage> {
           ),
           body: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: ListView(
               children: [
                 const TitleText(
                   text: 'What would \n You like to eat?', fontSize: 26,),
@@ -68,12 +80,9 @@ class _HomePageState extends State<HomePage> {
                 searchBar(),
                 const SizedBox(height: 22,),
                 categoriesList(),
-                const SizedBox(height: 22,),
+                const SizedBox(height: 20,),
                 const TitleText(text: 'Over Popular Items'),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 15),
-
-                )
+                masonryGridView(img.length, img)
               ],
             ),
           ),

@@ -13,8 +13,10 @@ class TitleText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
+      maxLines: 2,
+      overflow: TextOverflow.ellipsis,
       style: TextStyle(
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w700,
         fontSize: fontSize
       ),
     );
